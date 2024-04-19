@@ -1,0 +1,32 @@
+table{
+    border: burlywood solid 2px ;
+}
+
+.nav a{
+    text-decoration: none;
+    margin: auto;
+    color: aliceblue;
+}
+
+nav{
+    background-color: black;
+    text-align: center;
+}
+
+#main{
+    margin: 30px;
+    text-align: center;
+}
+
+aside{
+    border:dotted 10px;
+    color: dimgray;
+}
+
+
+
+*{
+    font-family: verdana;
+    font-weight: 800;
+}
+
