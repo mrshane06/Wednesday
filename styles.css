@@ -1,0 +1,140 @@
+body{
+    color: white;
+    background-color:#226BC5 ;
+    text-align: center;
+    /*box-sizing:border-box tells the browser to account for any border
+    and padding in the values you specify for an element's width and height*/
+    /*one way to use colors is by color names and RGB values*/
+}
+
+h1{
+    text-decoration: underline;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    border-bottom: dotted ;
+    padding: 10px;
+    margin-bottom: auto;
+}
+
+h1{
+    margin-top:50px;
+}
+
+ul li{
+    list-style: none;
+    width: 150px;
+    height:20px;
+    transition: 2s;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th{
+    border-bottom: solid;
+}
+
+td{
+    border-bottom: solid;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+li:hover{
+    background-color:white;
+    color: black;
+}
+
+.card{
+    transition: ease 1s;
+    cursor:pointer;
+}
+
+.card:hover{
+    transform: scale(1.2);
+}
+
+h2{
+    text-decoration: underline;
+}
+
+h3{
+    text-decoration: underline;
+}
+/*this is to hide the p element*/
+p{
+    display: none;
+    background-color: white;
+    padding: 20px;
+    color: black;
+}
+
+/*hovering over the div would let the hidden text be shown*/
+div:hover p{
+    display: block;
+}
+
+/*this lets the content under the .picture div form next to eachother evenly spaced*/
+.picture{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img{
+    transition: ease 1s;
+    cursor: pointer;
+}
+/*this is to allow the images to hover*/
+.img:hover{
+    transform: scale(1.2);
+}
+
+/*when clicking on this part of the table , it'll change colors*/
+th:active{
+    color: greenyellow;
+}
+
+/*when clicking on this part of the table , it'll change colors*/
+td:active{
+    color: rgba(19, 229, 131, 0.807);
+}
+
+/*turns all the i elements red*/
+p:first-child i{
+    color: red;
+}
+
+/*adjusts the size and font of the first letter in the p element*/
+p::first-letter{
+    font-size: larger;
+    font-family:'Times New Roman';
+}
+
+
+.navbar{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:black ;
+}
+
+.navbar:hover >li{
+    background-color: white;
+    color: black;
+}
