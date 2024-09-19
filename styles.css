@@ -89,7 +89,7 @@ div:hover p{
     display: block;
 }
 
-/*this lets the content under the .picture div form next to eachother evenly spaced*/
+/*this lets the content under the .picture div form next to each other evenly spaced*/
 .picture{
     display: flex;
     justify-content: space-evenly;
